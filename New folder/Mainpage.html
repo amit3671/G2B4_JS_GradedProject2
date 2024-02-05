@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Applications</title>
+    <link rel="stylesheet" href="Styles2.css">
+</head>
+
+<body class="body">
+
+    <button id="prev" type="submit">Prev</button>
+
+    <section>
+        <input type="search" placeholder="Enter Job Position" name="searchbox" id="searchbox">
+        <input type="submit" onclick="searchfunction()" value="Submit" id="searchpost">
+    </section>
+
+    <button id="next" type="submit">Next</button>
+
+    <div  id="top">
+        <p id="Name"></p>
+        <p id="AppliedFor"></p>
+        <article id="Image"></article>
+    </div>
+
+    <div id="resumedetails">
+
+        <div id="PersonalDetails">
+            <div id="ContactDetails">
+                <h4> Personal Information </h4>
+                <span id="Phone"></span> <br>
+                <span id="Email"></span> <br>
+            </div>
+
+            <div id="TechnicalSkills">
+                <h4> Technical Skills </h4>
+                <span id="SkillName"></span>
+                <span id="Level"></span><br>
+                <span id="Types"></span>
+            </div>
+
+            <div id="Hobbies">
+                <h4> Hobbies </h4>
+                <span id="HobbiesList"></span>
+            </div>
+
+        </div>
+
+        <div id="ProfessionalDetails">
+
+            <div id="Work">
+                <h3> Work Experience in different company </h3>
+                <span id="CompanyName"></span><br>
+                <span id="Position"></span><br>
+                <span id="StartDate"></span><br>
+                <span id="EndDate"></span><br>
+                <span id="Summary"></span><br>
+            </div>
+
+            <div id="Projects">
+                <h3>Projects </h3>
+                <span id="PTopic"></span>
+                <span id="PDetails"></span> <br>
+            </div>
+
+            <div id="Education">
+                <h3>Education </h3>
+                <ul>
+                    <li id="UG"></li> <br>
+                    <li id="PU"></li> <br>
+                    <li id="HighSchool"></li> <br>
+                </ul>
+            </div>
+
+            <div id="Internership">
+                <h3> Internership </h3>
+                <ul>
+                    <li id="InternshipCompanyName"></li> <br>
+                    <li id="InternshipPosition"></li> <br>
+                    <li id="InternshipStartDate"></li> <br>
+                    <li id="InternshipEndDate"></li> <br>
+                    <li id="InternshipSummary"></li> <br>
+                </ul>
+            </div>
+
+            <div id="Achievements">
+                <h3>Achievements </h3>
+                <ul>
+                    <li id="AchDetails"></li> <br>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="PositionDetails.js"></script>
+
+</html>

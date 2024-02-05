@@ -1,0 +1,65 @@
+#resumedetails {
+    display: flex;
+    padding: 0;
+}
+
+#prev {
+    float: left;
+
+    height: 1.7em;
+}
+
+#searchbox {
+    margin-left: 35em;
+    font-weight: 1000;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+}
+
+#next {
+    float: right;
+    margin-right: 0;
+    height: 1.7em;
+}
+
+#PersonalDetails {
+    background-color: burlywood;
+    display: inline-block;
+    text-align: left;
+}
+
+div>span {
+    margin-top: 1%;
+}
+
+#AppliedFor{
+    font-weight: bold;
+}
+
+#ProfessionalDetails {
+    background-color: azure;
+    margin-left: 0.5%;
+}
+
+h4 {
+    background-color: darkgrey;
+
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+#FullDetails {
+    margin: 0;
+}
+
+#top {
+    padding: 2%;
+    background-color: aqua;
+    text-align: center;
+    margin: 0;
+}
